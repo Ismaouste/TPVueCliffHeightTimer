@@ -1,5 +1,11 @@
 {
   "message": "hello i18n !!",
-  "title": "Mesures selon temps de chute"
-
+  "title": "Mesures selon temps de chute",
+  "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a vehicula nibh. Sed orci felis, lacinia id sodales non, dapibus nec nisl. In sodales fringilla tempus. Curabitur id mauris tempus, iaculis velit sit amet, ullamcorper nulla. Vivamus hendrerit, tortor vitae pharetra venenatis, velit lacus mattis neque, sit amet dignissim velit augue eget metus. Maecenas vel turpis tempor, ornare leo ac, lacinia ante. Nunc a congue nisi, quis hendrerit enim. Sed nec ex sodales, hendrerit dui vel, auctor velit.",
+  "aboutTitle": "À propos",
+  "drawer.home": "Accueil",
+  "drawer.history": "Historique",
+  "drawer.about": "À propos",
+  "historyTitle": "Historique",
+  "historyDescription": "Consultez l'historique de vos calculs:"
 }

@@ -1,4 +1,13 @@
 {
   "message": "hello i18n !!",
-  "title": "Cliff Height Timer"
+  "title": "Cliff Height Timer",
+  "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a vehicula nibh. Sed orci felis, lacinia id sodales non, dapibus nec nisl. In sodales fringilla tempus. Curabitur id mauris tempus, iaculis velit sit amet, ullamcorper nulla. Vivamus hendrerit, tortor vitae pharetra venenatis, velit lacus mattis neque, sit amet dignissim velit augue eget metus. Maecenas vel turpis tempor, ornare leo ac, lacinia ante. Nunc a congue nisi, quis hendrerit enim. Sed nec ex sodales, hendrerit dui vel, auctor velit.",
+  "aboutTitle": "About",
+  "drawer.home": "Home",
+  "drawer.history": "History",
+  "drawer.about": "About",
+  "historyTitle": "History",
+  "historyDescription": "Consult the history of your calculations:"
+
+
 }
