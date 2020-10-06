@@ -3,6 +3,14 @@
     <h2>{{ $t("historyTitle") }}</h2>
     <p> {{ $t("historyDescription") }}
     </p>
+    <div>
+      <ul v-for="key in history" :key="key.time">
+        <li> time : {{key.time}}</li>
+        <li> m : {{key.m}}</li>
+        <li> ft : {{key.ft}}</li>
+
+      </ul>
+    </div>
   </v-container>
 </template>
 
@@ -20,7 +28,12 @@
 // console.log('history')
 
 export default {
-name: "History"
+name: "History",
+  data: function () {
+    return {
+      history: JSON.parse(localStorage.getItem("history"))
+    }
+  }
 }
 </script>
 
