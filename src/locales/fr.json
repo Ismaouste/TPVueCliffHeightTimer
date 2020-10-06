@@ -7,5 +7,7 @@
   "drawer.history": "Historique",
   "drawer.about": "À propos",
   "historyTitle": "Historique",
-  "historyDescription": "Consultez l'historique de vos calculs:"
+  "historyDescription": "Consultez l'historique de vos calculs:",
+  "customTitle": "Ajout Personnalisé",
+  "customDescription": "Consultez l'historique de vos calculs:"
 }

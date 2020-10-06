@@ -3,10 +3,10 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import History from '../views/History'
+import CustomAdd from "@/views/CustomAdd";
 
 
 Vue.use(VueRouter)
-
 const routes = [
   {
     path: '/about',
@@ -22,6 +22,11 @@ const routes = [
     path: '/history',
     name: 'History',
     component: History
+  },
+  {
+    path: '/custom',
+    name: 'custom',
+    component: CustomAdd
   },
   // {
   //   path: '/about',

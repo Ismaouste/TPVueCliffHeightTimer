@@ -26,6 +26,7 @@ export default {
         { icon: 'home', text: this.$t('drawer.home'), action: '/' },
         { icon: 'history', text: this.$t('drawer.history'), action: '/history' },
         { icon: 'help', text: this.$t('drawer.about'), action: '/about' },
+        { icon: 'idea', text: this.$t('customTitle'), action: '/custom' },
       ]
     }
   }
