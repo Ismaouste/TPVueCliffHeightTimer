@@ -14,7 +14,7 @@
                 v-model="firstname"
                 :rules="nameRules"
                 :counter="10"
-                label="First name"
+                label="Time"
                 required
             ></v-text-field>
           </v-col>
@@ -27,7 +27,7 @@
                 v-model="lastname"
                 :rules="nameRules"
                 :counter="10"
-                label="Last name"
+                label="Meters"
                 required
             ></v-text-field>
           </v-col>
@@ -39,9 +39,31 @@
             <v-text-field
                 v-model="email"
                 :rules="emailRules"
-                label="E-mail"
+                label="Feet"
                 required
             ></v-text-field>
+
+          </v-col>
+          <v-col
+          cols="12"
+          md="4">
+            <v-btn
+                :disabled="!valid"
+                color="success"
+                class="mr-4"
+                @click="validate"
+            >
+            Validate
+            </v-btn>
+
+            <v-btn
+                color="error"
+                class="mr-4"
+                @click="reset"
+            >
+              Reset Form
+            </v-btn>
+
           </v-col>
         </v-row>
       </v-container>
